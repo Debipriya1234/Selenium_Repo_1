@@ -24,4 +24,9 @@ public class MyNewTest {
 	public void secondRunTest() {
 		System.out.println("Second test run");
 	}
+	
+	@Test
+	public void secondRunUnTest() {
+		System.out.println("second test didnot execute");
+	}
 }
